@@ -1,0 +1,22 @@
+@media screen and (max-width:576px){
+    .nav-main ,.benner-main, .habit-content, .run, .footre-main{
+        flex-direction: column;
+
+    }
+    .nav-right{
+        display: none;
+    }
+    .habit-card{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+        
+    .meet-content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .title-1, .title-2, .title-3{
+        margin-top: 20px;
+    }
+}

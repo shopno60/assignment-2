@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", system-ui;
+}
+body{
+    background-color: black;
+}
+
+.bg-color{
+    background-image: linear-gradient(black, rgba(128, 128, 128, 0.418), black);
+}
+/* navbar style start  */
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.nav-leaf{
+    font-size: 25px;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+}
+.nav-right{
+   border: 1px solid rgb(132, 127, 127);
+   border-radius: 25px;
+   padding: 3px;
+}
+
+#nav-btn-1{
+    color: white;
+    background-color: rgb(230, 83, 60);
+    border-radius: 25px;
+}
+.nav-btn-primary{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 25px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+/* navbar style end  */
+
+/* benner style start  */
+.benner-main{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.benner-left{
+    width: 450px;
+    padding: 10px;
+}
+
+.benner-title{
+    font-size: 60px;
+    color: white;
+}
+.style{
+    font-family: "Grey Qo", cursive;
+    font-size: 90px;
+    font-weight: 300;
+}
+.benner-description{
+    font-size: 16px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 22px;
+}
+#btn-1{
+    color: white;
+    background-color: rgb(230, 83, 60);
+    border: none;
+}
+.benner-btn{
+    background-color: transparent;
+    border: 1px solid rgb(148, 144, 144);
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin-top: 20px;
+    color: white;
+}
+.benner-right{
+    width: 330px;
+    height: 470px;
+    margin-right: 40px;
+}
+.benner-right img{
+    width: 100%;
+    height: 100%;
+}
+/* benner style end  */
+
+/* habit style start */
+
+.habib-main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.habit-title{
+    font-size: 60px;
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+}
+
+.habit-description{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.habit-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.habit-card{
+    width: 290px;
+    padding: 8px;
+    margin-top: 55px;
+
+}
+
+.habit-image{
+    width: 260px;
+    height: 260px;
+    border: 2px solid gainsboro;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.habit-image img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.habit-sub-title{
+    font-size: 25px;
+    color: white ;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.habit-sub-description{
+    margin-top: 8px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 20px;
+    text-align: center;
+}
+/* habit style end  */
+
+/* run section style start  */
+
+.run{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(34, 34, 34);
+    border-radius: 15px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.run-left{
+    width: 400px;
+    margin-left: 70px;
+}
+
+.run-title{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+.run-description{
+    font-size: 15px;
+    line-height: 23px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.run-btn{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    background-color: rgb(230, 83, 60);
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.run-right{
+    width: 500px;
+    height: 380px;
+    padding: 25px;
+}
+
+.run-right img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+/* run style end  */
+
+/* team section style start  */
+.meet-main{
+    max-width: 1200px;
+    margin: 0 auto; 
+    margin-top: 80px;
+}
+
+.meet-title{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.meet-sub-title{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 15px;
+    line-height: 25px;
+}
+.meet-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(34, 34, 34);
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 15px;
+    align-items: center;
+    margin-top: 60px;
+}
+.our-team{
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    margin: 0 auto;
+}
+.our-team img{
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+}
+.team-title{
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.team-image-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+/* team section style end  */
+
+.footer-container{
+    background-color: rgb(34, 34, 34);
+    padding: 20px 40px;
+    margin-top: 50px;
+}
+.footre-main{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.footer-desctiption{
+    font-size: 50px;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+}
+.footer-sub-des{
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-title{
+    font-size: 25px;
+    color: white;
+}
+
+.footer-sub-titile{
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+hr{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-last{
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgba(255, 255, 255, 0.5);
+}
